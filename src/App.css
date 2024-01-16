@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .python,
+  .Rproj,
+  .rasppi,
+  .aboutme {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .python {
+    background-image: url('./components/images/olympic_stream.JPEG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .Rproj {
+    background-image: url('./components/images/lake.JPEG');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .rasppi {
+    background-image: url('./components/images/hawaii.JPEG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .aboutme {
+    background-image: url('./components/images/Flight.JPEG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.botos-binted {
+  width: 50%;
+  height: 50%;
+}
+
+.p-pages {
+  font-size: 1.5em; 
+  line-height: 1.25; 
+  text-align: left; 
+  max-width: 75%; 
+  margin: 0 auto; 
+}
+
+.ul-pages {
+  font-size: 1.5em; 
+  line-height: 1.25; 
+  text-align: left;
+  max-width: 50%; 
+  margin: 0 auto; 
+}
+
+.ol-pages {
+  font-size: 1.5em; 
+  line-height: 1.25; 
+  text-align: left; 
+  max-width: 50%; 
+  margin: 0 auto; 
+}
+
+.li-pages {
+  text-align: center;
+  display: block;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.table-pages, .th-pages, .td-pages {
+  font-size: 1.5em; 
+  line-height: 1.25; 
+  text-align: center; 
+  max-width: 50%; 
+  margin: 0 auto; 
+  border: 1px solid;
+}
+
+
+body {
+  background-color: #86917d;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 6px;
+  box-sizing: border-box; 
+  height: 350px; 
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px; /* Add some bottom margin for spacing */
+}
+
+.text {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.cards {
+  padding: 4rem;
+  background: #fff;
+}
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+}
+
+.cards__item {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+
+/* Style for sections with images on the right */
+.section.right-align {
+  align-items: flex-end;
+}
