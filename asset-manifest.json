@@ -1,18 +1,29 @@
 {
   "files": {
     "main.css": "/react_deploy-gh/static/css/main.74a1de56.css",
-    "main.js": "/react_deploy-gh/static/js/main.e6174d2d.js",
+    "main.js": "/react_deploy-gh/static/js/main.0ef35859.js",
     "static/media/olympic_stream.JPEG": "/react_deploy-gh/static/media/olympic_stream.eb5466ded81007f517da.JPEG",
     "static/media/lake.JPEG": "/react_deploy-gh/static/media/lake.5161a2eeb69cee4af10f.JPEG",
     "static/media/hawaii.JPEG": "/react_deploy-gh/static/media/hawaii.ef07048d1efd13b04d66.JPEG",
+    "static/media/skiing.jpeg": "/react_deploy-gh/static/media/skiing.5aa78079f5b777a4a073.jpeg",
     "static/media/car_ski.jpeg": "/react_deploy-gh/static/media/car_ski.9295304727c8ba665467.jpeg",
+    "static/media/grad_photo.JPG": "/react_deploy-gh/static/media/grad_photo.65d8bfb6fc3034b3cc6a.JPG",
+    "static/media/Weather.jpeg": "/react_deploy-gh/static/media/Weather.cfd67721625bd2279df1.jpeg",
+    "static/media/Me_and_my_dog.JPG": "/react_deploy-gh/static/media/Me_and_my_dog.22acda89b2e4a963c86d.JPG",
     "static/media/Flight.JPEG": "/react_deploy-gh/static/media/Flight.6e3bd7c26a03a3c6071f.JPEG",
+    "static/media/Greenlight.jpeg": "/react_deploy-gh/static/media/Greenlight.c11bc623a6318959b024.jpeg",
+    "static/media/seattle.JPG": "/react_deploy-gh/static/media/seattle.4f69ed7d4066784f2fb8.JPG",
+    "static/media/kona_chain.JPG": "/react_deploy-gh/static/media/kona_chain.a9213427668f6aeea076.JPG",
+    "static/media/Whitelight.jpeg": "/react_deploy-gh/static/media/Whitelight.2ae3ff2b6db7a5de64c5.jpeg",
+    "static/media/wine_predictor.jpeg": "/react_deploy-gh/static/media/wine_predictor.706bd4c7a015559aee90.jpeg",
+    "static/media/wine_variable.jpeg": "/react_deploy-gh/static/media/wine_variable.aeb97785d1b28870b0fb.jpeg",
+    "static/media/R_fantasy.png": "/react_deploy-gh/static/media/R_fantasy.af1b8aa65a170a1bb2ed.png",
     "index.html": "/react_deploy-gh/index.html",
     "main.74a1de56.css.map": "/react_deploy-gh/static/css/main.74a1de56.css.map",
-    "main.e6174d2d.js.map": "/react_deploy-gh/static/js/main.e6174d2d.js.map"
+    "main.0ef35859.js.map": "/react_deploy-gh/static/js/main.0ef35859.js.map"
   },
   "entrypoints": [
     "static/css/main.74a1de56.css",
-    "static/js/main.e6174d2d.js"
+    "static/js/main.0ef35859.js"
   ]
 }
