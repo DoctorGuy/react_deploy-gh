@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react_deploy-gh/static/css/main.74a1de56.css",
+    "main.js": "/react_deploy-gh/static/js/main.e6174d2d.js",
+    "static/media/olympic_stream.JPEG": "/react_deploy-gh/static/media/olympic_stream.eb5466ded81007f517da.JPEG",
+    "static/media/lake.JPEG": "/react_deploy-gh/static/media/lake.5161a2eeb69cee4af10f.JPEG",
+    "static/media/hawaii.JPEG": "/react_deploy-gh/static/media/hawaii.ef07048d1efd13b04d66.JPEG",
+    "static/media/car_ski.jpeg": "/react_deploy-gh/static/media/car_ski.9295304727c8ba665467.jpeg",
+    "static/media/Flight.JPEG": "/react_deploy-gh/static/media/Flight.6e3bd7c26a03a3c6071f.JPEG",
+    "index.html": "/react_deploy-gh/index.html",
+    "main.74a1de56.css.map": "/react_deploy-gh/static/css/main.74a1de56.css.map",
+    "main.e6174d2d.js.map": "/react_deploy-gh/static/js/main.e6174d2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74a1de56.css",
+    "static/js/main.e6174d2d.js"
+  ]
+}
