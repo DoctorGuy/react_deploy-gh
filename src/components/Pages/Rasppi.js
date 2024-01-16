@@ -1,6 +1,10 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer.js';
+import image1 from './Weather.jpeg'
+import image2 from './Greenlight.jpeg'
+import image3 from './Whitelight.jpeg'
+
 
 export default function Rasppi() {
   return (
@@ -35,13 +39,13 @@ export default function Rasppi() {
          <br></br>
          <div class="row">
           <div class="column">
-            <img className = 'photo' src="Weather.jpeg" alt="Temperature-Display"></img>
+            <img className = 'photo' src={image1} alt="Temperature-Display"></img>
           </div>
           <div class="column">
-          <img className = 'photo' src="Greenlight.jpeg" alt="Green light"></img>
+          <img className = 'photo' src={image2} alt="Green light"></img>
           </div>
           <div class="column">
-          <img className = 'photo' src="Whitelight.jpeg" alt="White Light"></img>
+          <img className = 'photo' src={image3} alt="White Light"></img>
           </div>
         </div>
          <h2>How it Ended</h2>

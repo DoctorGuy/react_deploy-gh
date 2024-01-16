@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../App.js'
 import Footer from '../Footer.js';
+import image1 from './wine_variable.jpeg'
+import image2 from './wine_predictor.jpeg'
 
 
 export default function python() {
@@ -31,7 +33,7 @@ export default function python() {
        <br></br>
     <p className = 'p-pages'>As important as it is to demonstrate the ability to conduct machine learning analysis, I think it equally important to describe my thought process throughout.
        As we go along, I’ll describe why I decided one path over another, as well as my pros and cons to alternative ideas. With that in mind, let’s dive in. </p>
-    <img className= "botos-binted" src="wine_variable.jpeg" alt="Wine Characteritics"></img>
+    <img className= "botos-binted" src={image1} alt="Wine Characteritics"/>
     <p className = 'p-pages'>There’s a couple of interesting things I took from this graph.
        First, the separation of attributes and their impact on the quality
         of the wine isn’t readily apparent save for a few qualities. Second,
@@ -105,7 +107,7 @@ export default function python() {
       bad wines in the data, meaning we aren’t great at detecting them. Of the wines we end up recommending with this algorithm, between our false and 
       true positives, we have a recommended average of 6.6 on the quality which is pretty solid. Our final prediction distribution looks like: 
 </p>
-<img className = 'botos-binted' src="wine_predictor.jpeg" alt="Wine Characteritics"></img>
+<img className = 'botos-binted' src={image2} alt="Wine predictions"></img>
 <br></br>
 <h2>Summary</h2>
 <br></br>

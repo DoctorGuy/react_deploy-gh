@@ -1,6 +1,10 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import image1 from './R_fantasy.png'
+import image2 from './wine_predictor.jpeg'
+import image3 from './Weather.jpeg'
+import image4 from './Me_and_my_dog.JPG'
 
 function Cards() {
   return (
@@ -10,13 +14,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='R_fantasy.png'
+              src={image1}
               text='Fantasy Football'
               label='R-Projects'
               path='/Rprojects'
             />
             <CardItem
-              src='wine_predictor.jpeg'
+              src={image2}
               text='Machine Learning'
               label='Python Projects'
               path='/Python'
@@ -24,13 +28,13 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='Weather.jpeg'
+              src={image3}
               text='Weather and Calender Device'
               label='Raspberry Pi'
               path='/Raspberrypi'
             />
             <CardItem
-              src='Me_and_my_dog.jpg'
+              src={image4}
               text='Education and Accomplishments'
               label='Adventure'
               path='/about-me'
